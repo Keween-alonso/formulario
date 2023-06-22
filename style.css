@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: white;
+}
+
+.principal{
+    width: 940px;
+    margin: 1em auto;
+    background-color: darkgray;
+    padding: 10px 0;
+    border-radius: 25px;
+}
+
+.principal h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+    margin: 1em 0;
+}
+
+label, legend{
+    font-size: 1.5em;
+    margin-left: 85px;
+}
+
+.dados input, input[type="submit"], textarea, select{
+    display: block;
+    padding: .5em;
+    font-size: 1.3em;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.conhecimentos input{
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.conhecimentos label{
+    display: inline-block;
+    margin: 0;
+}
+
+.conhecimentos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+input[type='submit']{
+    transition: all 1s;
+}
+
+input[type='submit']:hover{
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
